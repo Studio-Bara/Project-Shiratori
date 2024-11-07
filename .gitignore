@@ -1,12 +1,12 @@
 # Unity generated files and folders
-/Library/
+/Project-S/Library/
 # Ignore specific subdirectories in Library (redundant but explicit)
-Library/Artifacts/
-Library/PackageCache/
-/Temp/
-/Obj/
-/Logs/
-/MemoryCaptures/
+Project-S/Library/Artifacts/
+Project-S/Library/PackageCache/
+/Project-S/Temp/
+/Project-S/Obj/
+/Project-S/Logs/
+/Project-S/MemoryCaptures/
 
 # Asset meta files
 *.pidb.meta
@@ -28,9 +28,9 @@ Library/PackageCache/
 /Builds/
 
 # Packages - keep manifest files only
-/Packages/*
-!/Packages/manifest.json
-!/Packages/packages-lock.json
+/Project-S/Packages/*
+!/Project-S/Packages/manifest.json
+!/Project-S/Packages/packages-lock.json
 
 # Auto-generated files for Visual Studio
 .vscode/
