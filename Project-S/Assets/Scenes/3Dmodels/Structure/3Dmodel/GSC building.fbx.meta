@@ -7,13 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Normal
-    second: {fileID: 2100000, guid: 62bed482eed1748039b0bee8759a317a, type: 2}
+      name: GSC white
+    second: {fileID: 2100000, guid: 82141c72774b1488c8314b0de3b31460, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: glass
-    second: {fileID: 2100000, guid: 0e67c1a173a114a1993c7ec2bebfd359, type: 2}
+      name: Glass
+    second: {fileID: 2100000, guid: 8fb8b023f88964434bf591cf8a50c7a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Glass \u7E01"
+    second: {fileID: 2100000, guid: acc9ed54758634271a5953c79abbd58c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile
+    second: {fileID: 2100000, guid: 59f216ee9a35e46629c002b15d1eccd2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
