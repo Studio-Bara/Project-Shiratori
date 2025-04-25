@@ -28,23 +28,27 @@ Material:
   m_Parent: {fileID: 2100000, guid: 6a894677f0d564d2589020d7d4695331, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHATEST_ON
   - _DETAIL_MAP
   - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
+  - _MATERIAL_FEATURE_SUBSURFACE_SCATTERING
+  - _MATERIAL_FEATURE_TRANSMISSION
   - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
-  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap:
-    RenderType: Transparent
+    RenderType: TransparentCutout
   disabledShaderPasses:
   - RayTracingPrepass
   - TransparentDepthPrepass
   - MOTIONVECTORS
   - TransparentDepthPostpass
+  - TransparentBackface
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -58,9 +62,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _MaterialID: 0
+    - _StencilRef: 4
+    - _StencilRefGBuffer: 14
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.5896226, b: 0.6851266, a: 1}
-    - _Color: {r: 1, g: 0.58962256, b: 0.6851266, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
